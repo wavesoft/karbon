@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="filename">c:\temp\trace</entry>
+<entry key="udpbuffer">buffer-udp.dump</entry>
+<entry key="tcpport">1225</entry>
+<entry key="tcpbuffer">buffer-tcp.dump</entry>
+<entry key="udpport">1515</entry>
+</properties>
