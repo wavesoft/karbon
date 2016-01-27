@@ -16,7 +16,7 @@ import KAnalyzer.Utils.ReportTools.ReportFormat;
 
 /**
  *
- * @author Γιάννης
+ * @author Ioannis Charalampidis
  */
 public class PNetworkPresenter extends TPresenter {
 

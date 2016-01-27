@@ -10,7 +10,7 @@ import KAnalyzer.Interfaces.TLineToken;
 
 /**
  *
- * @author Γιάννης
+ * @author Ioannis Charalampidis
  */
 public class VoidRule implements IAnalyzeRule {
 

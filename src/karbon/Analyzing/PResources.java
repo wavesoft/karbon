@@ -17,7 +17,7 @@ import KAnalyzer.Utils.SummayCollector;
 
 /**
  *
- * @author Γιάννης
+ * @author Ioannis Charalampidis
  */
 public class PResources extends TPresenter {
 

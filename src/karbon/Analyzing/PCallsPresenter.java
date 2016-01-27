@@ -15,7 +15,7 @@ import KAnalyzer.Utils.ReportTools.ReportFormat;
 
 /**
  *
- * @author Γιάννης
+ * @author Ioannis Charalampidis
  */
 public class PCallsPresenter extends KAnalyzer.API.TPresenter  {
 

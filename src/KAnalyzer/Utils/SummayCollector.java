@@ -15,7 +15,7 @@ import java.util.Hashtable;
  * values, counting hits, measuring averages and then
  * report the results, without messing with complex structures
  * 
- * @author Γιάννης
+ * @author Ioannis Charalampidis
  */
 public class SummayCollector {
 

@@ -15,7 +15,7 @@ import java.util.Hashtable;
 
 /**
  *
- * @author Γιάννης
+ * @author Ioannis Charalampidis
  */
 public class KNetworkTracker extends TAnalyzeTarget {
 

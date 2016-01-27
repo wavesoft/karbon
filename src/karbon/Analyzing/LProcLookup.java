@@ -12,7 +12,7 @@ import java.util.Hashtable;
 
 /**
  *
- * @author Γιάννης
+ * @author Ioannis Charalampidis
  */
 public class LProcLookup extends TPreprocessingTool {
 

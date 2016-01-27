@@ -13,7 +13,7 @@ import KAnalyzer.Utils.TextPresenter;
 
 /**
  *
- * @author Γιάννης
+ * @author Ioannis Charalampidis
  */
 public class KOverallTime extends TAnalyzeTarget {
 
