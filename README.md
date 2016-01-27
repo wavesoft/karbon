@@ -24,6 +24,18 @@ You will need __Java Runtime__ installed to your system. In most of the cases yo
 java -jar Karbon.jar
 ```
 
+### Current Plugins
+
+The following list enumerates all the currently available plug-ins and their use:
+
+- **Classifier** : Traces all system calls that perform operations on file descriptors, such as Filesystem (`fopen`,`fclose` etc.), Memory (`mmap`, `mprotect` etc.), Network (`socket`,`sockopt` ...) or Misc (`pipe`, `socketpair` etc.).
+- **System Calls** : An overview plug-in that summarises the statistics from all system calls, such as error rate, time spent on errors and overall time spent. 
+- **Socket Tracker** : A specialised plug-in that tracks socket creation and actions. This plugin also resolves the endpoint details (IP address or UNIX socket) and the traffic through them.
+- **File Tracker** : A specialised plug-in that tracks individual files accessed by the application, including detailed I/O statistics.
+- **Hotspot Tracker** : A specialised plug-in that identifies  operations that take too much time to complete, including System Calls, Filesystem Operations and Processes.
+- **Process Tracker** : A specialised plug-in that tracks process creation and behaviour. It constructs a comprehensive process tree and evolution graph in order to identify fork-related problems.
+- **Time Utilisation** : A specialised plug-in that summarises the time spent in various operations, such as File I/O or Network I/O.
+
 ## License
 
 Karbon - Tracefile Analyzer GUI 
