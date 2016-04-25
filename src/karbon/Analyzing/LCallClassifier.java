@@ -190,6 +190,11 @@ public class LCallClassifier extends TPreprocessingTool {
         {"pipe2",           1  | GROUP_MISC | FLAG_CREATES_FD1 | FLAG_CREATES_FD2 },
         {"select",          2  | GROUP_MISC },
         {"socketpair",      3  | GROUP_MISC },
+        {"epoll_create",    4  | GROUP_MISC | FLAG_RETURNS_FD },
+        {"epoll_ctl",       5  | GROUP_MISC | FLAG_USES_FD },
+        {"epoll_wait",      6  | GROUP_MISC | FLAG_USES_FD },
+        {"eventfd",         7  | GROUP_MISC | FLAG_RETURNS_FD },
+        {"eventfd2",        8  | GROUP_MISC | FLAG_RETURNS_FD },
 
         /** Network calls **/
         {"socket",          1  | GROUP_SOCKET | FLAG_RETURNS_FD },
@@ -223,6 +228,7 @@ public class LCallClassifier extends TPreprocessingTool {
         {"fchmod",          12 | GROUP_FILE | FLAG_USES_FD },
         {"fchown",          13 | GROUP_FILE | FLAG_USES_FD },
         {"fchmodat",        14 | GROUP_FILE | FLAG_USES_FD | FLAG_HAS_STRING },
+        {"openat",          15 | GROUP_FILE | FLAG_RETURNS_FD | FLAG_HAS_STRING },
 
         /** Filesystem calls that do not involve FD **/
         {"stat",           100 | GROUP_FILE | FLAG_HAS_STRING },
